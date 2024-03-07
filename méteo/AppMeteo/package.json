@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "appmeteo",
+    "version": "1.0.0",
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location",
+          "locationAlwaysPermission": "Allow $(PRODUCT_NAME) to use your location",
+          "locationWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location"
+        }
+      ]
+    ],
+    "platforms": ["ios", "android", "web"],
+    "dependencies": {
+      "axios": "^1.6.7",
+      "expo": "~50.0.6",
+      "expo-status-bar": "~1.11.1",
+      "expo-location": "~16.5.3",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "react-native": "0.73.4"
+    },
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "private": true
+  }
+}
